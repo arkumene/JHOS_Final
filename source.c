@@ -99,7 +99,7 @@ while !EOF{
 void consumer(char *filename, char *location, char ch){
     FILE *fp;
     fp = fopen(filename, "r");
-    if (fp=NULL){
+    if (fp==NULL){
         printf("error opening file");
     }
 
